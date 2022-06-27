@@ -11,7 +11,7 @@ body {
 }
 
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../imagem/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -76,6 +76,7 @@ body {
 
 a{
     text-decoration: none;
+    border-radius: 15px;
 }
 
 a.reserva {
@@ -84,6 +85,10 @@ a.reserva {
     color: #fff5b0;
     padding: 5px 10px;
     float: right;
+}
+
+a.reserva:hover{
+    color: #fff;
 }
 
 /*barra de navegaçao vertical*/
@@ -116,4 +121,29 @@ ul#navegaçao a:hover{
     width: 226px;
     height: 164px;
     float: right;
+}
+
+/*area de conteudos*/
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(../imagem/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(../imagem/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape{
+    clear: both;
+    background-color: red;
 }
